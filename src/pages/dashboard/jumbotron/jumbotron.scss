@@ -4,9 +4,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     background-color: $bg-color-light;
     width: 100%;
     height: 450px;
     color: $white-color;
+}
+
+.content {
+    width: 500px;
+    text-align: center;
+}
+
+.content h1 {
+    line-height: 1.3;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.content h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 30px;
 }
