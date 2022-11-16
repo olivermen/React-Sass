@@ -1,9 +1,12 @@
 import React from "react";
 
+// import stylesheets
+import "./dashboard.scss";
+
 // import components
 import Header from "../../components/header/header";
 import Jumbotron from "../../components/sections/jumbotron";
-import Carousel from "../../components/carousel/carousal_default";
+import Carousel from "../../components/carousel/carousel_default";
 import Portfolio from "../../components/portfolio";
 import Pricing from "../../components/pricing";
 import ContactForm from "../../components/contact";
