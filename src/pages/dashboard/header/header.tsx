@@ -2,12 +2,14 @@ import React from "react";
 
 // import stylesheets
 import "./header.scss";
-
-const Header = () => {
+interface HeaderProps {
+  name: string;
+}
+const Header = ({ name }: HeaderProps) => {
   return (
     <div className="header">
       <div className="title">
-        <a href="https://jonny.me">YongJun.me</a>
+        <a href="https://jonny.me">{name}.me</a>
       </div>
       <div className="navbar">
         <a href="https://jonny.me">SERVICES</a>
