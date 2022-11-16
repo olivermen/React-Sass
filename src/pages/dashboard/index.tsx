@@ -23,7 +23,7 @@ const Dashboard = () => {
       <Carousel />
       <Portfolio />
       <Pricing />
-      <ContactForm />
+      <ContactForm></ContactForm>
     </div>
   );
 };
