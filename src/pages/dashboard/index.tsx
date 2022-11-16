@@ -1,0 +1,24 @@
+import React from "react";
+
+// import components
+import Header from "../../components/header/header";
+import Jumbotron from "../../components/sections/jumbotron";
+import Carousel from "../../components/carousel/carousal_default";
+import Portfolio from "../../components/portfolio";
+import Pricing from "../../components/pricing";
+import ContactForm from "../../components/contact";
+
+const Dashboard = () => {
+  return (
+    <div className="container">
+      <Header></Header>
+      <Jumbotron></Jumbotron>
+      <Carousel></Carousel>
+      <Portfolio></Portfolio>
+      <Pricing></Pricing>
+      <ContactForm></ContactForm>
+    </div>
+  );
+};
+
+export default Dashboard;
