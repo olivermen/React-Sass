@@ -1,19 +1,5 @@
 
-.header:before {
-	content: ' ';
-	right: 0;
-	top: 0;
-	opacity: .2;
-	left: 0;
-	height: 100px;
-	position: absolute;
-	z-index: 1;
-	@media (min-width:990px) {
-		background-position: center bottom;
-		background-size: cover;
-		background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNDQwIDMyMCc+PHBhdGggZmlsbD0nIzUwMDBjYScgZmlsbC1vcGFjaXR5PScwLjknIGQ9J00wLDY0TDYwLDU4LjdDMTIwLDUzLDI0MCw0MywzNjAsODBDNDgwLDExNyw2MDAsMjAzLDcyMCwyNTAuN0M4NDAsMjk5LDk2MCwzMDksMTA4MCwzMTQuN0MxMjAwLDMyMCwxMzIwLDMyMCwxMzgwLDMyMEwxNDQwLDMyMEwxNDQwLDBMMTM4MCwwQzEzMjAsMCwxMjAwLDAsMTA4MCwwQzk2MCwwLDg0MCwwLDcyMCwwQzYwMCwwLDQ4MCwwLDM2MCwwQzI0MCwwLDEyMCwwLDYwLDBMMCwwWic+PC9wYXRoPjwvc3ZnPg==); 
-	}
-}
+
 .header {
 	width: 100%;
 	.header-menu {
@@ -66,17 +52,6 @@
 				}
 			}
 		}
-		.header-hambuger {
-			padding: 18px;
-			max-width: 130px;
-			position: absolute;
-			right: 0;
-			width: 100%;
-			cursor: pointer;
-			display: none;
-			float: right;
-			user-select: none;
-		}
 	}
 
 	.header-menu-wrapper{
@@ -104,6 +79,36 @@
 	}
 }
 
+
+// .header:before {
+// 	content: ' ';
+// 	right: 0;
+// 	top: 0;
+// 	opacity: .2;
+// 	left: 0;
+// 	height: 100px;
+// 	position: absolute;
+// 	z-index: 1;
+// 	@media (min-width:990px) {
+// 		z-index: 5;
+// 		background-position: center bottom;
+// 		background-size: cover;
+// 		background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNDQwIDMyMCc+PHBhdGggZmlsbD0nIzUwMDBjYScgZmlsbC1vcGFjaXR5PScwLjknIGQ9J00wLDY0TDYwLDU4LjdDMTIwLDUzLDI0MCw0MywzNjAsODBDNDgwLDExNyw2MDAsMjAzLDcyMCwyNTAuN0M4NDAsMjk5LDk2MCwzMDksMTA4MCwzMTQuN0MxMjAwLDMyMCwxMzIwLDMyMCwxMzgwLDMyMEwxNDQwLDMyMEwxNDQwLDBMMTM4MCwwQzEzMjAsMCwxMjAwLDAsMTA4MCwwQzk2MCwwLDg0MCwwLDcyMCwwQzYwMCwwLDQ4MCwwLDM2MCwwQzI0MCwwLDEyMCwwLDYwLDBMMCwwWic+PC9wYXRoPjwvc3ZnPg==); 
+// 	}
+// }
+
+
+.header-hambuger {
+	padding: 18px;
+	max-width: 130px;
+	position: absolute;
+	right: 0;
+	width: 100%; 
+	cursor: pointer;
+	display: none;
+	float: right;
+	user-select: none;
+}
 @keyframes headerAni {
 	from {
 		height: 0px;
