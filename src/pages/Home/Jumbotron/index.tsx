@@ -12,6 +12,7 @@ const Jumbotron = () => {
           Specializing in custom theme development. If you're a business seeking
           a web presence or are looking to hire, contact me <span>here</span>
         </h2>
+        <button className="content-btn">Get Started</button>
       </div>
     </div>
   );
