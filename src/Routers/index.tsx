@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 
-const Router = () => {
+const Routers = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -14,4 +14,4 @@ const Router = () => {
   );
 };
 
-export default Router;
+export default Routers;
