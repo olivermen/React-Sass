@@ -54,6 +54,17 @@
 		}
 	}
 
+	.header-hambuger {
+		padding: 18px;
+		max-width: 130px;
+		position: absolute;
+		right: 0;
+		width: 100%; 
+		cursor: pointer;
+		display: none;
+		float: right;
+		user-select: none;
+	}
 	.header-menu-wrapper{
 		position: absolute;
 		top:82.5px;
@@ -98,17 +109,6 @@
 // }
 
 
-.header-hambuger {
-	padding: 18px;
-	max-width: 130px;
-	position: absolute;
-	right: 0;
-	width: 100%; 
-	cursor: pointer;
-	display: none;
-	float: right;
-	user-select: none;
-}
 @keyframes headerAni {
 	from {
 		height: 0px;
