@@ -15,7 +15,7 @@ const StandardCard = () => {
       <h2>Development</h2>
       <h2>Backups</h2>
       <h2>Analytics</h2>
-      <h2>Live Chat</h2>
+      <h2>LiveChat</h2>
       <h2>Search Engine Optimization</h2>
       <h2>Content Management</h2>
       <Button type="btn-standard" title="Request quote" />
