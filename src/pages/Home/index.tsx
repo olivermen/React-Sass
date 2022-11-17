@@ -18,11 +18,11 @@ const Dashboard = () => {
   const { name, update } = useStore();
   return (
     <div className="container">
-      <Header name={name}></Header>
-      <Jumbotron></Jumbotron>
-      <Carousel></Carousel>
-      <Portfolio></Portfolio>
-      <Pricing></Pricing>
+      <Header name={name} />
+      <Jumbotron />
+      <Carousel />
+      <Portfolio />
+      <Pricing />
       <ContactForm></ContactForm>
     </div>
   );
