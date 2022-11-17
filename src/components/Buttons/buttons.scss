@@ -1,0 +1,30 @@
+.button {
+    .btnDefault {
+        background-color: var(--btn-default-color);
+        color: var(--white-color);
+        padding: 12px 30px;
+        border-radius: 30px;
+        font-size: 16px;
+        border: none;
+        margin: 0 16px 0 0;
+        line-height: 1.5;
+        &:hover {
+            background-color: var(--bg-gradient-end);
+        }
+    }   
+    
+    .btnSecondary {
+        background-color: var(--white-color);
+        border: 1px solid var(--btn-default-color);
+        color: var(--btn-default-color);
+        padding: 12px 30px;
+        border-radius: 30px;
+        font-size: 16px;
+        margin: 0 16px 0 0;
+        line-height: 1.5;
+        &:hover {
+            background-color: var(--btn-default-color);
+            color : var(--white-color);
+        }
+    }   
+}
