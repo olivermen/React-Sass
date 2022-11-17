@@ -1,7 +1,19 @@
 import React from "react";
 
-const BtnBasic = () => {
-  return <div></div>;
+// import stylesheets
+import "./buttons.scss";
+
+interface ButtonProps {
+  type: string;
+  title: string;
+}
+
+const BtnBasic = ({ type, title }: ButtonProps) => {
+  return (
+    <div className="button">
+      <button className={type}>{title}</button>
+    </div>
+  );
 };
 
 export default BtnBasic;

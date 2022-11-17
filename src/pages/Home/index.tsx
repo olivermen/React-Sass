@@ -14,7 +14,7 @@ import ContactForm from "./Contact";
 // import store
 import useStore from "../../useStore";
 
-const Dashboard = () => {
+const Home = () => {
   const { name, update } = useStore();
   return (
     <div className="container">
@@ -28,4 +28,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Home;
