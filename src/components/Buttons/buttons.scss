@@ -7,7 +7,8 @@
         font-size: 16px;
         border: none;
         margin: 30px 8px;
-        line-height: 1.5;
+        line-height: 1.5;  
+        transition: 0.3s;
         &:hover {
             background-color: var(--bg-gradient-end);
         }
@@ -21,6 +22,7 @@
         border-radius: 30px;
         font-size: 16px;
         margin: 30px 8px;
+        transition: 0.3s;
         line-height: 1.5;
         &:hover {
             background-color: var(--btn-default-color);
@@ -36,6 +38,7 @@
         border-radius: 30px;
         font-size: 16px;
         margin: 30px 8px;
+        transition: 0.3s;
         line-height: 1.5;
         &:hover {
             background-color: var(--btn-light-hover);
@@ -51,6 +54,7 @@
         font-size: 16px;
         border: none;
         margin: 30px 8px;
+        transition: 0.3s;
         line-height: 1.5;
         &:hover {
             background-color: var(--bg-gradient-end);
@@ -64,6 +68,7 @@
         font-size: 16px;
         border: none;
         margin: 30px 8px;
+        transition: 0.3s;
         line-height: 1.5;
         &:hover {
             background-color: var(--premium-hover);
