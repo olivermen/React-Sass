@@ -28,7 +28,7 @@ const PortfolioDefault = ({
         <h1>{design ? "PORTFOLIO" : ""}</h1>
       </div>
       <div className="content">
-        <div className="portfolioImage">
+        <div className="portfolio-image">
           <img
             src={require(`../../../assets/images/${screen}`)}
             width={570}
@@ -45,9 +45,9 @@ const PortfolioDefault = ({
           <h4 hidden={!design}>
             Designed by <a href="https://jonny.me">Kristin Killam</a>
           </h4>
-          <div className="buttonGroup">
-            <Button type="btnDefault" title="Preview" />
-            <Button type="btnSecondary" title="Visit site" />
+          <div className="button-group">
+            <Button type="btn-default" title="Preview" />
+            <Button type="btn-secondary" title="Visit site" />
           </div>
         </div>
       </div>
