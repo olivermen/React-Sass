@@ -8,7 +8,7 @@ import Button from "../../../components/Buttons";
 
 const PremiumCard = () => {
   return (
-    <div className="basic-card">
+    <div className="premium-card">
       <h1>STANDARD</h1>
       <h2>Website Audit</h2>
       <h2>Design</h2>

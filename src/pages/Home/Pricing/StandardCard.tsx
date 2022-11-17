@@ -8,7 +8,7 @@ import Button from "../../../components/Buttons";
 
 const StandardCard = () => {
   return (
-    <div className="basic-card">
+    <div className="standard-card">
       <h1>BASIC</h1>
       <h2>Website Audit</h2>
       <h2>Design</h2>
