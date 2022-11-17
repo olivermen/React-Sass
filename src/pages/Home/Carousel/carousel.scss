@@ -1,12 +1,11 @@
-@import "../../../styles/index.scss";
 
 .carousel {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: $white-color;
+    background-color: var(--white-color);
     width: 100%;
     height: 480px;
-    color: $black-color;
+    color: var(--black-color);
 }

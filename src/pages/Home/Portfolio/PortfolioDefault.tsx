@@ -5,8 +5,8 @@ import "./portfolio.scss";
 
 const PortfolioDefault = () => {
   return (
-    <div className="portfolio-default">
-      <h1>Portfolio Item</h1>
+    <div className="contact">
+      <h1>Portfolio</h1>
     </div>
   );
 };
