@@ -16,6 +16,18 @@
         position: relative;
         width: 600px;
         margin: 0 auto;
+        
+        @media (max-width: 1200px) {
+            width: 500px;                    
+        }
+        
+        @media (max-width: 1000px) {
+            width: 350px;                    
+        }
+        
+        @media (max-width: 550px) {
+            width: 95%;                    
+        }
         .contact-former {
             position: relative;
             margin: 10px auto;
@@ -23,9 +35,17 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            
+            @media (max-width : 765px) {
+                flex-direction: column;  
+            }
             .email-form{
                 width: 49%;
                 display: flex;
+                @media (max-width : 765px) {
+                    margin-bottom: 10px;
+                    width: 100%;               
+                }
                 flex-direction: column;
                 label {
                     color: #aaa;
@@ -52,6 +72,9 @@
                 width: 49%;
                 display: flex;
                 flex-direction: column;
+                @media (max-width : 765px) {
+                    width: 100%;               
+                }
                 label {
                     color: #aaa;
                     font-size: 12px;

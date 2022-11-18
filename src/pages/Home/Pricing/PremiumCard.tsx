@@ -8,8 +8,8 @@ import Button from "../../../components/Buttons";
 
 const PremiumCard = () => {
   return (
-    <div className="basic-card">
-      <h1>STANDARD</h1>
+    <div className="premium-card">
+      <h1>PREMIUM</h1>
       <h2>Website Audit</h2>
       <h2>Design</h2>
       <h2>Development</h2>
