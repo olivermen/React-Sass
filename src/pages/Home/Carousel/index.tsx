@@ -47,7 +47,7 @@ const Carousel = () => {
 						cursor: 'pointer',
 						fontSize: '38px',
 						fontWeight: '900',
-						width: 30,
+						width: 35,
 					},
 					children: <span>{`<`}</span>,
 				}}
